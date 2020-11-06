@@ -8,10 +8,10 @@ body {
 }
     body .mainwrapper {
         width: 100vw;
-        height: 100vh;
-        overflow-y: hidden;
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
-        overscroll-behavior: contain;
+        height: 100vh;  /*calc( 100vh - 15px);*/
+        overflow-y: scroll;
+        /*overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;*/ /* enables “momentum” (smooth) scrolling */
+        /*overscroll-behavior: contain;*/
         font-size: xx-large;
     }
