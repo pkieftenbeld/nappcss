@@ -2,6 +2,9 @@ html,
 body {
     position: fixed;
     overflow: hidden;
+    background-image: url('https://dabc.ballast-nedam.nl/assets/index_small.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
     body .mainwrapper {
         width: 100vw;
