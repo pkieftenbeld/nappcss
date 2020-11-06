@@ -1,5 +1,8 @@
+body, html {
+    overscroll-behavior-y: contain;
+    overscroll-behavior-x: contain;
+  
+}
 body {
-    overscroll-behavior-y: none;
-    overscroll-behavior-x: none;
     background-image: url('https://dabc.ballast-nedam.nl/assets/index.png');
 }
