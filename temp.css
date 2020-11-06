@@ -8,6 +8,6 @@ body {
         height: 100vh;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
-        overscroll-behavior: none; /*contain*/
+        overscroll-behavior: contain;
         font-size: xx-large;
     }
