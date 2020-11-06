@@ -1,12 +1,11 @@
-body, html {
-    overscroll-behavior-y: contain;
-    overscroll-behavior-x: contain;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-}
+html,
 body {
-    background-image: url('https://dabc.ballast-nedam.nl/assets/index.png');
-
+    position: fixed;
+    overflow: hidden;
 }
-
+    body > .mainwrapper {
+        width: 100vw;
+        height: 100vh;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
+    }
