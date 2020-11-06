@@ -3,10 +3,11 @@ body {
     position: fixed;
     overflow: hidden;
 }
-    body > .mainwrapper {
+    body .mainwrapper {
         width: 100vw;
         height: 100vh;
         overflow-y: scroll;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch; /* enables “momentum” (smooth) scrolling */
         overscroll-behavior: contain;
         font-size: xx-large;
